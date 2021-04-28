@@ -132,8 +132,8 @@ public class BRConstants {
      */
     public static final Pair[] DONATION_ADDRESSES = new Pair[]
             {
-                    Pair.create("Litewallet Hardware Fundraiser", "MVRj1whQ8hqcpffjRxLLCJG1mD27V9YygY"),
-                    Pair.create("Litecoin Foundation", "MDPqwDf9eUErGLcZNt1HN9HqnbFCSCSRme")
+                    Pair.create("Fastwallet Hardware Fundraiser", "MVRj1whQ8hqcpffjRxLLCJG1mD27V9YygY"),
+                    Pair.create("Fastcoin Project", "MDPqwDf9eUErGLcZNt1HN9HqnbFCSCSRme")
             };
     public static final long DONATION_AMOUNT = 1_800_000;
 
@@ -149,9 +149,9 @@ public class BRConstants {
     public static final String fingerprintSpendingLimit = "fingerprint-spending-limit";
     public static final String transactionDetails = "transaction-details";
     //    public static final String manageWallet = "manage-wallet";
-    public static final String receive = "receive-litecoin";
+    public static final String receive = "receive-fastcoin";
     public static final String requestAmount = "request-amount";
-    public static final String send = "send-litecoin";
+    public static final String send = "send-fastcoin";
     public static final String walletDisabled = "wallet-disabled";
     public static final String resetPinWithPaperKey = "reset-pin-paper-key";
     public static final String setPin = "set-pin";
@@ -163,7 +163,7 @@ public class BRConstants {
     public static final String loopBug = "android-loop-bug";
 
     public static final String TWITTER_LINK = "https://twitter.com/loafwallet";
-    public static final String REDDIT_LINK = "https://www.reddit.com/r/litecoin";
+    public static final String REDDIT_LINK = "https://www.reddit.com/r/fastcoin";
     public static final String WEB_LINK = "https://loafwallet.org";
     public static final String TOS_LINK = "https://loafwallet.org/tos";
 

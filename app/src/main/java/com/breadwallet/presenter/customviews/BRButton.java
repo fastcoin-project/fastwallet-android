@@ -197,7 +197,7 @@ public class BRButton extends Button {
         this.type = type;
 
         if (type == 1) { //blue
-            bPaint.setColor(getContext().getColor(R.color.litecoin_litewallet_blue));
+            bPaint.setColor(getContext().getColor(R.color.fastcoin_fastwallet_blue));
             setTextColor(getContext().getColor(R.color.white));
         } else if (type == 2) { //gray stroke
             bPaintStroke.setColor(getContext().getColor(R.color.extra_light_gray));
@@ -207,10 +207,10 @@ public class BRButton extends Button {
             bPaint.setColor(getContext().getColor(R.color.button_secondary));
             bPaint.setStyle(Paint.Style.FILL);
         } else if (type == 3) { //blue strokeww
-            bPaintStroke.setColor(getContext().getColor(R.color.litecoin_litewallet_blue));
+            bPaintStroke.setColor(getContext().getColor(R.color.fastcoin_fastwallet_blue));
             bPaintStroke.setStyle(Paint.Style.STROKE);
             bPaintStroke.setStrokeWidth(Utils.getPixelsFromDps(getContext(), 1));
-            setTextColor(getContext().getColor(R.color.litecoin_litewallet_blue));
+            setTextColor(getContext().getColor(R.color.fastcoin_fastwallet_blue));
             bPaint.setColor(getContext().getColor(R.color.button_secondary));
             bPaint.setStyle(Paint.Style.FILL);
         }

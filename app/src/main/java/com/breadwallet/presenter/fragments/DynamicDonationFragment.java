@@ -31,10 +31,10 @@ import com.breadwallet.wallet.BRWalletManager;
 import java.math.BigDecimal;
 
 /**
- * Litewallet
+ * Fastwallet
  * Created by Mohamed Barry on 3/2/20
  * email: mosadialiou@gmail.com
- * Copyright © 2020 Litecoin Foundation. All rights reserved.
+ * Copyright © 2021 Fastcoin Project. All rights reserved.
  */
 public class DynamicDonationFragment extends Fragment {
 
@@ -223,7 +223,7 @@ public class DynamicDonationFragment extends Fragment {
 
     private String formatLtcAmount(BigDecimal amount) {
         BigDecimal ltcAmount = BRExchange.getBitcoinForSatoshis(getContext(), amount);
-        return BRCurrency.getFormattedCurrencyString(getContext(), "LTC", ltcAmount);
+        return BRCurrency.getFormattedCurrencyString(getContext(), "FST", ltcAmount);
     }
 
     private String formatIsoAmount(BigDecimal amount) {

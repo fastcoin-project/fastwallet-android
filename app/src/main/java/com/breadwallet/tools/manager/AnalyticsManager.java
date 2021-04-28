@@ -7,10 +7,10 @@ import com.breadwallet.tools.util.BRConstants;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 /**
- * Litewallet
+ * Fastwallet
  * Created by Kerry Washington on 3/11/20
  * email: mrkerrywashington@icloud.com
- * Copyright © 2020 Litecoin Foundation. All rights reserved.
+ * Copyright © 2021 Fastcoin Project. All rights reserved.
  */
 
 public final class AnalyticsManager {

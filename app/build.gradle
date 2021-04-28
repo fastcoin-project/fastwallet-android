@@ -69,7 +69,7 @@ android {
         loaf {
             applicationId "com.loafwallet"
             dimension "mode"
-            resValue "string", "app_name", "Litewallet"
+            resValue "string", "app_name", "Fastwallet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
 
             externalNativeBuild {
@@ -86,7 +86,7 @@ android {
         loafTestnet {
             applicationId "com.loafwallet.testnet"
             dimension "mode"
-            resValue "string", "app_name", "Litewallet-testnet"
+            resValue "string", "app_name", "Fastwallet-testnet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"
 
             externalNativeBuild {
